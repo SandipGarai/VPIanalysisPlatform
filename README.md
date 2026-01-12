@@ -1,14 +1,14 @@
-# GBNVPI Analysis Platform
+# VPI Analysis Platform
 
 ## Overview
 
-The **Groundnut Bud Necrosis Virus Protection Index (GBNVPI) Analysis Platform** is a publication-ready Streamlit application for comprehensive plant disease analysis. This tool integrates Principal Component Analysis (PCA), statistical testing (ANOVA and Tukey HSD), and publication-quality visualizations to assess treatment effectiveness against viral infections in plants.
+The **Virus Protection Index (VPI) Analysis Platform** is a publication-ready Streamlit application for comprehensive plant disease analysis. This tool integrates Principal Component Analysis (PCA), statistical testing (ANOVA and Tukey HSD), and publication-quality visualizations to assess treatment effectiveness against viral infections in plants.
 
 ## Features
 
 ### Core Analysis
 
-- **PCA-based GBNVPI Computation**: Calculates a protection index from Disease Severity Index (DSI) and Relative Fold Viral Load (RFVL)
+- **PCA-based VPI Computation**: Calculates a protection index from Disease Severity Index (DSI) and Relative Fold Viral Load (RFVL)
 - **Relative Fold Reduction (RFD)**: Quantifies viral load reduction compared to control treatments
 - **Statistical Analysis**: ANOVA and Tukey HSD post-hoc tests for treatment comparisons
 - **Publication-Quality Visualizations**: High-resolution plots ready for scientific publications
@@ -93,9 +93,9 @@ Your CSV file should have the following columns in this order:
 3. **PCA Analysis Tab**:
    - Run PCA analysis
    - View scree plots and loadings
-   - GBNVPI automatically calculated
-4. **GBNVPI Results Tab**:
-   - View GBNVPI and RFD summaries
+   - VPI automatically calculated
+4. **VPI Results Tab**:
+   - View VPI and RFD summaries
    - Generate comparative charts
 5. **Statistical Analysis Tab**:
    - Run ANOVA and Tukey HSD tests
@@ -108,17 +108,17 @@ Your CSV file should have the following columns in this order:
 
 ## Methodology
 
-### GBNVPI Calculation
+### VPI Calculation
 
-The GBNVPI is computed using the following steps:
+The VPI is computed using the following steps:
 
 1. **Feature Standardization**: DSI and RFVL are normalized using Min-Max scaling (0-1 range)
 2. **PCA Application**: Principal components are extracted from standardized features
 3. **Index Calculation**:
    ```
-   GBNVPI = 1 - normalized(PC1)
+   VPI = 1 - normalized(PC1)
    ```
-4. **Interpretation**: Higher GBNVPI values indicate better protection against the virus
+4. **Interpretation**: Higher VPI values indicate better protection against the virus
 
 ### RFD Calculation
 
@@ -154,7 +154,7 @@ The application handles binomial nomenclature correctly:
 
 ### Processed Data CSV
 
-- Original data plus GBNVPI and RFD columns
+- Original data plus VPI and RFD columns
 - Ready for further analysis or publication
 
 ### ANOVA Results (Excel)
@@ -173,7 +173,7 @@ The application handles binomial nomenclature correctly:
 - Scree plots for each plant
 - PC1 loadings charts
 - Comparative bar charts
-- GBNVPI and RFD comparison plots
+- VPI and RFD comparison plots
 
 ## Troubleshooting
 
@@ -211,7 +211,7 @@ For questions, issues, or feature requests:
 
 ## License
 
-[Add your license information here]
+[---]
 
 ## Acknowledgments
 
@@ -220,7 +220,7 @@ This application was developed to support plant disease research and facilitate 
 ## Version History
 
 - **v1.0.0** (2025): Initial release
-  - PCA-based GBNVPI computation
+  - PCA-based VPI computation
   - ANOVA and Tukey HSD analysis
   - Publication-quality visualizations
   - Multi-tab Streamlit interface
@@ -232,4 +232,3 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 ---
 
 **Developed for Plant Disease Research | Publication-Ready Analysis Platform**
-

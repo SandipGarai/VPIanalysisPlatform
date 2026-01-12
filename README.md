@@ -33,7 +33,7 @@ The **Groundnut Bud Necrosis Virus Protection Index (GBNVPI) Analysis Platform**
 
 ```bash
 git clone <repository-url>
-cd gbnvpi-analysis
+cd VPIanalysisPlatform
 ```
 
 2. **Create a virtual environment (recommended)**
@@ -200,7 +200,7 @@ The application handles binomial nomenclature correctly:
 If you use this tool in your research, please cite:
 
 ```
-[Your Publication Details Here]
+[Coming soon]
 ```
 
 ## Support
@@ -208,7 +208,6 @@ If you use this tool in your research, please cite:
 For questions, issues, or feature requests:
 
 - Email: [sandipnicksandy@gmail.com]
-- GitHub Issues: [repository-url/issues]
 
 ## License
 
@@ -233,3 +232,4 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 ---
 
 **Developed for Plant Disease Research | Publication-Ready Analysis Platform**
+
